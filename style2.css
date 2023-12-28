@@ -1,0 +1,108 @@
+body {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+   
+    background: linear-gradient(to right, #ba8221, #3f4848);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.brand-highlight {
+    color: #6A0572; /* Dark purple accent color */
+}
+
+.navbar {
+    background: linear-gradient(to right,#3f091a, #132a35); /* Light pink and light blue gradient for navbar */
+}
+
+.navbar .nav-link {
+    background: linear-gradient(to right, #821135, #123203); /* Matching color with navbar background */
+    border: 2px solid #7d838d; /* Dark purple border color */
+    color: rgb(255, 255, 255);
+    font-size: large !important;
+    margin: 10px;
+}
+
+.navbar .nav-link:hover {
+    background: linear-gradient(to right, #583351, #4a95d3); /* Slightly darker shade on hover */
+    color: #6A0572 !important;
+    transition: b
+}
+h2:hover {
+    color: #E94057; /* Lighter coral accent color */
+}
+
+.btn {
+    background: linear-gradient(to right, #2a276b, #0b0a33);
+    color: #FFC3A0;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #ba8221, #3f4848); /* Darker blue gradient on hover */
+    color: #FFC3A0;
+}
+
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    background-color: lightgrey
+}
+
+
+.container-fluid {
+   
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #5fb32c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5fb32c;
+}
+
+a {
+    color: #5fb32c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background: linear-gradient(to right, #ba8221, #3f4848);
+    color: white;
+    padding: 20px;
+}
